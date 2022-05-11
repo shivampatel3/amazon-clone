@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "../component-styles/Home.css";
 import Product from "./Product";
 
 function Home() {
@@ -14,33 +14,14 @@ function Home() {
 
         <div className="home_row">
           <Product
+            id={1}
             title="The Alignment Problem"
             price={29.99}
             image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
             rating={5}
           />
           <Product
-            title="The Alignment Problem"
-            price={29.99}
-            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
-            rating={5}
-          />
-        </div>
-
-        <div className="home_row">
-          <Product
-            title="The Alignment Problem"
-            price={29.99}
-            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
-            rating={5}
-          />
-          <Product
-            title="The Alignment Problem"
-            price={29.99}
-            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
-            rating={5}
-          />
-          <Product
+            id={2}
             title="The Alignment Problem"
             price={29.99}
             image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
@@ -50,6 +31,31 @@ function Home() {
 
         <div className="home_row">
           <Product
+            id={3}
+            title="The Alignment Problem"
+            price={29.99}
+            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
+            rating={5}
+          />
+          <Product
+            id={4}
+            title="The Alignment Problem"
+            price={29.99}
+            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
+            rating={5}
+          />
+          <Product
+            id={5}
+            title="The Alignment Problem"
+            price={29.99}
+            image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
+            rating={5}
+          />
+        </div>
+
+        <div className="home_row">
+          <Product
+            id={6}
             title="The Alignment Problem"
             price={29.99}
             image="https://brianchristian.org/images/The-Alignment-Problem-Front-Cover.jpg"
